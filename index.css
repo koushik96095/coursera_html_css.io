@@ -1,0 +1,83 @@
+h1
+{
+    margin-top: 1.5cm;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu
+{
+    margin-top: 2cm;
+}
+.chik,.bee,.sus
+{
+    margin-top: .5cm;
+    border: .1cm;
+    border-style: solid;
+    border-color: black;
+    background-color: gray;
+
+    
+}
+
+.d1,.d2,.d3
+{
+    padding-top:.1cm;
+    padding-right: 1cm;
+    padding-left: 1cm;
+    float:right;
+    border-bottom: solid;
+    border-color: black;
+    border-width: .2cm;
+    background-color: salmon;
+    font-size: .6cm;
+    border-left: solid;
+    border-color: black;
+    border-width: .1cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p
+{
+    padding-top:.6cm;
+    padding-left:.5cm;
+    padding-right:.5cm;
+    padding-bottom:.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+@media(min-width:992px)
+{
+.chik,.bee,.sus
+{
+    width: 30%;
+    height: 7cm;
+    float: left;
+    margin-left:.5cm;
+
+}
+}
+@media(min-width:768px) and (max-width:991px)
+{
+.chik,.bee
+{
+      width:35%;
+      height:7.5cm;
+      float: left;
+      margin-left: 2cm;
+}
+.sus
+{
+    margin-right:6cm;
+      float: right;
+      width:50%;
+      height:6cm;
+      position: relative;
+      right:15;
+}
+}
+@media(max-width:767px)
+{
+    .chik,.bee,.sus
+    {
+        margin-top: .5cm;
+    }
+}
